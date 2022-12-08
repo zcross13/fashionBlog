@@ -1,0 +1,27 @@
+h1{
+    color:red
+}
+
+h2{
+    color:blue;
+}
+
+.nav{
+    border: 2px solid rebeccapurple
+}
+
+.nav a{
+    color: violet
+}
+
+#header{
+    border: 2px solid red;
+}
+
+#main{
+    border:2px solid red 
+}
+
+#footer{
+    border:2px solid red 
+}
