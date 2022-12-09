@@ -1,27 +1,82 @@
-h1{
-    color:red
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100&family=VT323&display=swap');
+
+body {
+    border-left: solid;
+    border-width: 5px;
+    color: lightgrey;
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+}
+
+.header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.main {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+h1 {
+    color: tomato; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    margin-bottom: 24px;
 }
 
 h2{
-    color:blue;
+    color: black; 
+    font-family: 'Roboto', sans-serif; 
 }
 
-.nav{
-    border: 2px solid rebeccapurple
+img {
+    width: 100%
 }
 
-.nav a{
-    color: violet
+ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex
 }
 
-#header{
-    border: 2px solid red;
+/* use display flex in ul to style nav bar */
+
+.headerNav {
+    justify-content: space-between;
 }
 
-#main{
-    border:2px solid red 
+.headerList a {
+    color: lightgray
 }
 
-#footer{
-    border:2px solid red 
+aside {
+    text-align: right;
+    color: tomato;
+    font-weight: bold
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 2rem;
+}
+
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: lightgray;
+    word-wrap: break-word;
 }
