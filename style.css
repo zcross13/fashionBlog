@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100&family=VT323&display=swap');
 
 body {
-    border-left: solid;
-    border-width: 5px;
-    color: lightgrey;
+    border-left: solid 5px lightgray;
     min-height: 100vh;
     font-family: sans-serif;
     max-width: 1000px;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .header {
@@ -31,35 +31,33 @@ body {
 }
 
 h1 {
-    color: tomato; 
+    color: tomato;
     font-family: 'Roboto', sans-serif;
     font-size: 65px;
-    margin-bottom: 24px;
+    margin:auto
 }
 
-h2{
-    color: black; 
-    font-family: 'Roboto', sans-serif; 
+h2 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin:auto;
+    margin-bottom: 24px; 
 }
 
 img {
     width: 100%
 }
 
-ul {
+
+.headerNav nav {
     list-style-type: none;
     padding: 0px;
-    display: flex
-}
-
-/* use display flex in ul to style nav bar */
-
-.headerNav {
+    display: flex;
     justify-content: space-between;
 }
 
-.headerList a {
-    color: lightgray
+.headerNav a {
+    color: darkgray;
 }
 
 aside {
@@ -71,12 +69,29 @@ aside {
 article {
     margin-bottom: 4rem;
     border-bottom: solid 1px lightgray;
-    padding-bottom: 2rem;
+    padding-bottom: 2rem
 }
 
-p::first-letter {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: lightgray;
-    word-wrap: break-word;
+article h1 {
+    margin-top: auto;
+}
+
+p::first-letter{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 6rem; 
+    float:left;
+    color: darkgray;
+    margin: 0.1em 0.1em 0.1em 0; 
+    line-height: 0.65;
+}
+
+.footerNav {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerNav a {
+    color: orangered
 }
