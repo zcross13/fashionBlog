@@ -4,9 +4,8 @@ body {
     border-left: solid 5px lightgray;
     min-height: 100vh;
     font-family: sans-serif;
-    max-width: 1000px;
+    width: fit-content;
     font-family: 'Roboto', sans-serif;
-    
 }
 
 .header {
@@ -41,7 +40,7 @@ h2 {
     color: black;
     font-family: 'Roboto', sans-serif;
     margin:auto;
-    margin-bottom: 24px; 
+    margin-bottom: 32px; 
 }
 
 img {
@@ -54,6 +53,7 @@ img {
     padding: 0px;
     display: flex;
     justify-content: space-between;
+    font-size: 24px;
 }
 
 .headerNav a {
@@ -90,6 +90,11 @@ p::first-letter{
     padding: 0px;
     display: flex;
     justify-content: space-between;
+    font-size: 24px;
+}
+
+p {
+    font-size: 24px;
 }
 
 .footerNav a {
